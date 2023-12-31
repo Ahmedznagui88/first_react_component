@@ -1,0 +1,83 @@
+/* *{
+  background-color: rgb(36, 36, 36);
+} */
+
+body {
+  margin: 0;
+  
+}
+
+/* code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+} */
+
+.space-1{
+  height: 70px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.width{
+  color: red;
+  font-size: 40px;
+  background-color: rgb(99, 103, 107);
+
+}
+
+
+
+.height{
+  color: red;
+  font-size: 40px;
+  background-color: rgb(99, 103, 107);
+  
+  
+}
+
+.devs {
+  border-radius: 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin: 3rem auto;
+  list-style: none;
+}
+
+.card{
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.grid{
+  display: flex;
+align-items: center;
+  
+}
+
+.name{
+
+  width: 90px;
+ margin-left: 10px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+.button{
+ 
+  text-decoration: none;
+  color: rgb(239, 94, 16);
+  background-color: rgb(107, 108, 109);
+  border-radius: 10px;
+  width: 90px;
+  height: 34px;
+  display: flex;
+ justify-content: center;
+ align-items: center;
+
+}
